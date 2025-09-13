@@ -1,4 +1,4 @@
-# Simple User Registration Page
+# Simple User Registration Page , FrontEnd App
 
 This project is a **simple user registration page** created with HTML, CSS, and JavaScript.  
 It allows users to enter their information and demonstrates interactive features such as alerts and color changes.
@@ -55,3 +55,4 @@ You can view the live website via GitHub Pages:
 ## Author
 
 - Mansour Dalia
+
