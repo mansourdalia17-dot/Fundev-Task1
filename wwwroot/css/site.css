@@ -1,0 +1,67 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.display-4 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color:gold;
+    font-family: Chiller;
+    font-size: 60px;
+}
+.head11 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: darkolivegreen;
+    font-family: Chiller;
+    font-size: 60px;
+}
+.nameInput1 {
+    display: block; /* put each input on its own line */
+    width: 80%; /* make them take full form width */
+    padding: 10px;
+    margin-bottom: 5px; /* space between each element */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.btn1 {
+    display: block;
+    margin: 0 auto; /* center the button */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.nameInput2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-family: Chiller;
+    color: darkgreen;
+    margin-right: 15px;
+}

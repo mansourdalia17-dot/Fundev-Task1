@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+   
+</div>
+
+<h1 class="head11" id="head1_js">Registration Page</h1>
+
+<input onmouseover="Fun2()" type="text" id="inp1" class="nameInput1" placeholder="Enter Your Email" />
+<br />
+<input onmouseover="Fun2()" type="text" id="inp2" class="nameInput1" placeholder="Enter Your First Name" />
+<br />
+<input onmouseover="Fun2()" type="text" id="inp3" class="nameInput1" placeholder="Enter Your Last Name" />
+<br />
+<input onmouseover="Fun2()" type="password" class="nameInput1" placeholder="Enter a strong Password" />
+<br />
+<label class="nameInput2">City</label>
+<select>
+    <option>Amman</option>
+    <option>Irbid</option>
+    <option>Aqaba</option>
+   
+</select>
+<br />
+<label class="nameInput2">Gender</label>
+    Male
+<input class="nameInput3" type="radio" name="a1" />
+    Female
+<input class="nameInput3"  type="radio" name="a1" />
+<br />
+
+<label class="nameInput2" > Study Level</label>
+    BA
+<input lass="nameInput3" type="checkbox" />
+    Master
+<input lass="nameInput3" type="checkbox" />
+    PHD
+<input lass="nameInput3"  type="checkbox" />
+<br />
+
+<input type="submit" id="saveB" class="btn1" onclick="Fun1()" style="background-color:darkgreen" value="Save" />
+
+,<script>
+    document.getElementById("saveB").addEventListener("click", function(){document.body.style.backgroundColor= "darkorange"});
+     function Fun1(){
+         document.getElementById("saveB").style.backgroundColor="red";
+    }
+
+    function Fun2(){
+             alert('Enter Your Personal Data');
+    }
+
+// </script>
