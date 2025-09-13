@@ -54,5 +54,6 @@ You can view the live website via GitHub Pages:
 
 ## Author
 
-- Mansour Dalia
+- Dalia Mansour
+
 
